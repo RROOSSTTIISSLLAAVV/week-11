@@ -34,7 +34,8 @@ int main(void) {
 	index_arr[0] = index_m; 
 	index_arr[1] = index_n;
     
-    cout << arr[index_arr[0]][index_arr[1]];
+    cout << arr[index_arr[0]][index_arr[1]] << endl;
+    cout << "coor " << index_m + 1 << " " << index_n + 1;
     
 	return 0;
 }
